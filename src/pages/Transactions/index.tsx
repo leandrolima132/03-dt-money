@@ -6,14 +6,6 @@ import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styl
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
 
-interface Transaction {
-  id: number
-  description: string
-  type: 'income' | 'outcome'
-  price: number
-  category: string
-  createdAt: string
-}
 
 export function Transactions() {
   const { transactions } = useContext(TransactionsContext)

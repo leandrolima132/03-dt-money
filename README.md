@@ -1,12 +1,18 @@
-# Ignite Timer
+# Dt Money
 
-![Descrição do GIF](/src/assets/demostrativo.gif)
+![Descrição do GIF](/src/assets/demostrativo.png)
 
 ## Descrição
 
+O Dt Money é uma aplicação financeira que permite gerenciar suas transações de forma simples e eficaz. O projeto foi desenvolvido como parte do curso DT-Money da Rocketseat e tem como objetivo demonstrar o uso de React e outras tecnologias para criar uma aplicação web completa.
+
 ## Funcionalidades
 
--
+- **Adicionar Transações**: Permite adicionar transações financeiras com descrição, valor e categoria.
+- **Listar Transações**: Exibe uma lista de todas as transações cadastradas.
+- **Filtrar por Categoria**: Filtre transações por categorias específicas.
+- **Resumo Financeiro**: Mostra um resumo dos valores totais de entradas e saídas.
+- **Responsivo**: Design adaptável para diferentes tamanhos de tela.
 
 ## Tecnologias Utilizadas
 
@@ -40,6 +46,12 @@ Para começar a usar o Dt Money localmente, siga os passos abaixo:
    npm install
    ```
 4. **Inicie o servidor de desenvolvimento:**
+
    ```bash
    npm start
+   ```
+
+5. **rodar o json-server:**
+   ```bash
+   npx json-server server.json -p 3000 -w
    ```

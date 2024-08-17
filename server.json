@@ -47,22 +47,6 @@
       "type": "outcome",
       "createdAt": "2022-07-30T13:38:57.560Z",
       "id": "6"
-    },
-    {
-      "id": "f249",
-      "description": "test 1",
-      "price": 110,
-      "category": "test",
-      "type": "income",
-      "createdAt": "2024-08-16T20:45:39.922Z"
-    },
-    {
-      "id": "2773",
-      "description": "test 2",
-      "price": 10,
-      "category": "test 2",
-      "type": "outcome",
-      "createdAt": "2024-08-16T20:46:18.729Z"
     }
   ]
 }
